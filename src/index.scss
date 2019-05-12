@@ -1,0 +1,98 @@
+
+$palette: (
+    dark-imperial-blue: #08415c,
+    dark-imperial-blue-lighten: lighten( #08415c , 14%),
+    ball-blue: #2898cc,
+    pale-aqua: #B9Daea,
+    teal-blue: #377896,
+    diamond: #B5E7FF
+);
+
+body#main {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: map-get($palette, pale-aqua);
+
+
+    div#root {
+    
+        nav#BG {
+            background-color: map-get($palette, teal-blue);
+        }
+
+        div#projectCard {
+            margin-top: 70px;
+            max-width: 18rem;
+            max-height: 24rem;
+            border: 3px solid map-get($palette, dark-imperial-blue-lighten);
+
+            #projectCardImage {
+                height: 12rem;
+            }
+            
+            background-color: map-get($palette, dark-imperial-blue-lighten);
+            h3 {
+
+                font-size: 30px;
+                font-variant: small-caps;
+                color: map-get($palette, diamond);
+                border-bottom: 4px inset map-get($palette, diamond);
+
+            }
+            p {
+                font-size: 18px;
+                font-weight: bold;
+                font-variant: small-caps;
+                color: map-get($palette, diamond);
+
+            }
+        }
+
+
+        div#aboutCard {
+            margin-top: 3rem;
+            max-width: 50%;
+            margin-left: 25%;
+        }
+
+        div#jumboAbout {
+            margin-top: 3rem;
+            display: block;
+            max-width: 1440px; 
+            background-color: map-get($palette, dark-imperial-blue-lighten);
+            color: map-get($palette, diamond);
+        }
+        
+        form#contactForm {
+
+            background-color: map-get($palette, dark-imperial-blue-lighten);
+            margin-top: 3rem;
+            display: block;
+            max-width: 1440px;
+            border-radius: 7px;
+
+            input {
+                margin-top: 2rem;
+                max-width: 95%;
+                background-color: map-get($palette, lavender-blush);
+            }
+
+            textarea {
+                margin-top: 2rem;
+                max-width: 95%;
+                background-color: map-get($palette, lavender-blush);
+            }
+
+            button {
+                background-color: map-get($palette, ball-blue);
+                border-color: map-get($palette, ball-blue);
+                margin-top: 1rem;
+                max-width: 95%;
+                margin-bottom: 2rem;
+            }
+
+        }
+    }   
+}
+

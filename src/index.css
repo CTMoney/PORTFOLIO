@@ -1,0 +1,77 @@
+body#main {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #B9Daea;
+}
+
+body#main div#root nav#BG {
+  background-color: #377896;
+}
+
+body#main div#root div#projectCard {
+  margin-top: 70px;
+  max-width: 18rem;
+  max-height: 24rem;
+  border: 3px solid #0e6f9e;
+  background-color: #0e6f9e;
+}
+
+body#main div#root div#projectCard #projectCardImage {
+  height: 12rem;
+}
+
+body#main div#root div#projectCard h3 {
+  font-size: 30px;
+  font-variant: small-caps;
+  color: #B5E7FF;
+  border-bottom: 4px inset #B5E7FF;
+}
+
+body#main div#root div#projectCard p {
+  font-size: 18px;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: #B5E7FF;
+}
+
+body#main div#root div#aboutCard {
+  margin-top: 3rem;
+  max-width: 50%;
+  margin-left: 25%;
+}
+
+body#main div#root div#jumboAbout {
+  margin-top: 3rem;
+  display: block;
+  max-width: 1440px;
+  background-color: #0e6f9e;
+  color: #B5E7FF;
+}
+
+body#main div#root form#contactForm {
+  background-color: #0e6f9e;
+  margin-top: 3rem;
+  display: block;
+  max-width: 1440px;
+  border-radius: 7px;
+}
+
+body#main div#root form#contactForm input {
+  margin-top: 2rem;
+  max-width: 95%;
+}
+
+body#main div#root form#contactForm textarea {
+  margin-top: 2rem;
+  max-width: 95%;
+}
+
+body#main div#root form#contactForm button {
+  background-color: #2898cc;
+  border-color: #2898cc;
+  margin-top: 1rem;
+  max-width: 95%;
+  margin-bottom: 2rem;
+}
+/*# sourceMappingURL=index.css.map */
