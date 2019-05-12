@@ -10,12 +10,12 @@ import "bootstrap"
 const App = () => {
   return (
     <Router>
-      <Switch>
+      <>
         <NavBar />
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
-      </Switch>
+      </>
     </Router>
   )
 }
