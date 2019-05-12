@@ -34,18 +34,18 @@ const NavBar = () => {
       <div className='collapse navbar-collapse' id='navbarNav'>
         <ul className='navbar-nav'>
           <li className='nav-item'>
-            <p className='nav-link' style={{ fontSize: 23 }}>
-              <Link to='/'>Home</Link>
+            <p>
+              <Link className='nav-link' style={{ fontSize: 23 }} to='/'>Home</Link>
             </p>
           </li>
           <li className='nav-item'>
-            <p className='nav-link' style={{ fontSize: 23 }}>
-              <Link to='/about'>About</Link>
+            <p          >
+              <Link className='nav-link' style={{ fontSize: 23 }} to='/about'>About</Link>
             </p>
           </li>
           <li className='nav-item'>
-            <p className='nav-item nav-link' style={{ fontSize: 23 }}>
-              <Link to='/contact'>Contact</Link>
+            <p>
+              <Link className='nav-link' style={{ fontSize: 23 }} to='/contact'>Contact</Link>
             </p>
           </li>
         </ul>
